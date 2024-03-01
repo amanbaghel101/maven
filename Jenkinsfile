@@ -1,8 +1,7 @@
-pipeline
-{
-  agent {
-    label 'slave'
-  }
+ pipeline {
+    agent {
+        label 'slave'
+    }
   stages
   {
     stage("GIT")
